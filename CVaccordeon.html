@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page accordéon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="theme.css" />
+</head>
+
+<body>
+    <div class="center">
+        <h1>Colombe SECHEHAYE</h2> 
+        <a href="https://www.linkedin.com/in/colombe-sechehaye-14654a163/" target="_blank"> <i id="ico-lkd" class="fab fa-linkedin fa-3x"></i> </a>
+        
+        <img id="profil" src="Images/profil.jpg"/>
+
+        <h2>Junior web developer</h3> 
+        <i id="ico-html" class="fab fa-html5 fa-3x"></i> <i id="ico-css" class="fab fa-css3-alt fa-3x"></i> <i id="ico-js" class="fab fa-js-square fa-3x"></i> <i id="ico-react" class="fab fa-react fa-3x"></i>   
+
+        <div class="bs-example">
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Présentation</a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>Agée de 24 ans, je suis développeuse web junior.</p>
+                            <p>Après des études en Coopération Internationale et deux expériences en asbl, je me lance dans le développement web. Je viens de commencer la formation BeCode qui va me permettre de faire de grands progrès dans le développement web et d'être employable directement.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Projets</a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <p>Plus tard, j'aimerais développer des sites webs pour des structures avec peu de visibilité : asbl, startups...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Hobby's</a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <ul>
+                                <li>Faire de nouvelles découvertes</li>
+                                <li>L'art sous toutes ses formes</li>
+                                <li>Jeux de société</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapseFor" id="contact">Contact</a>
+                            </h4>
+                        </div>
+                        <div id="collapseFor" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                    <section id="contactform">
+                                            <!--formulaire de contact-->
+                                            <form>
+                                                <div>
+                                                    <label>Prénom</label> </br>
+                                                    <input type="texte" name="Prénom">
+                                                </div>
+                                                
+                                                <div>
+                                                    <label>Nom</label> </br>
+                                                    <input type="password" name="Nom">
+                                                </div>
+                                                
+                                                <div>
+                                                    <label>Message</label> </br>
+                                                    <textarea></textarea>
+                                                </div>
+                                    
+                                                <button type="submit">Envoyer</button>
+                                            </form>
+                                        </section>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

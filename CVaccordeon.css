@@ -1,0 +1,71 @@
+body{
+    background-image: url(Images/blurred-white.jpg);
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 2.00em;
+    padding: 0px;
+    font-style: "American Typewriter";
+}
+
+h2{
+    font-size: 1.75em;
+    padding: 0px;
+}
+
+i{
+    padding: 10px 20px;
+}
+
+p{
+    padding: 0px 10%;
+}
+
+.bs-example{
+    margin: 20px 25%;
+}
+
+#ico-lkd{
+    color: rgb(55, 146, 232);
+    position: absolute;
+    margin-left: 28%;
+}
+
+#ico-html{
+    color: rgb(201, 19, 10);
+}
+
+#ico-css{
+    color: rgb(35, 63, 163);
+}
+
+#ico-js{
+    color: rgb(247, 190, 4);
+}
+
+#ico-react{
+    color: rgb(54, 198, 226);
+}
+
+#profil{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: 20px 20px 0px;
+}
+
+a:focus{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:onclick{
+    text-decoration: none;
+}
+

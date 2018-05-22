@@ -1,0 +1,165 @@
+html, body{
+    background-color: rgb(202, 197, 221);
+    font-family: Arial;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 25px auto;
+}
+
+h1{
+    color:rgb(35, 21, 54);
+    font-family: "OCR A Std", monospace;
+    font-size: 30px;
+    text-align: left;
+    padding: 2px;
+    text-align: center;
+}
+
+h2{
+    color :rgb(35, 21, 54);
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 40px;
+}
+
+section{
+    background-color: white;
+    color: rgb(35, 21, 54);
+    margin-left: 22%;
+    margin-right: 22%;
+    padding: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2px;
+}
+
+.flex1, .flex2, .flex3{
+    padding: 5px;
+    width: 33%;
+}
+
+.flex1{
+    align-content: flex-start;
+}
+
+.flex2{
+    
+    align-content: center;
+}
+
+.flex3{
+    align-content: flex-end;
+}
+
+.main-header{
+    background-image: url(images/color.png);
+    height: 250px;
+    width: 100%;
+    left: 0px;
+    top: 2px;
+    
+}
+
+.main-container{
+    height: 50%;
+}
+
+.main-footer{
+    
+}
+
+.right{
+    text-align: right;
+}
+
+.roundedImage{
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:90px;
+    height:90px;
+}
+
+a {
+    text-decoration: none;
+}
+li a{
+    color: whitesmoke;
+}
+
+nav li{
+    color: white;
+    float: left;
+    font-size: 30px;
+    bottom: 10px;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+
+nav li :hover{
+    border: solid white 2px;
+}
+
+nav ul{
+    margin-left: 20%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#contact{
+    color: rgb(22, 2, 51);
+    text-align: center;
+}
+
+#contactform{
+    background-color: rgba(9, 0, 22,0);
+    color: rgb(22, 2, 51);
+    text-align: center;
+    border: solid 1px rgba(9, 0, 22) ;
+    margin-left: 22%;
+    margin-right: 22%;
+    margin-top: 10px;
+}
+
+/*logo = ma photo de profil*/
+#logo{
+    animation: superanimation 5s;
+    border-radius: 50%;
+    float: right;
+    height: 150px;
+    width: 150px;
+    margin: 50px;
+    position: fixed;
+}
+
+/*rotation de la photo de profil*/
+#logo:hover{
+    animation : test 5s;
+}
+
+
+@keyframes superanimation {
+    0% {
+        transform: rotate(30deg);
+        transition: opacity 1s ease-in-out;
+}}
+
+@keyframes test {
+    0% {
+        transition: opacity 1s ease-in-out;
+}
+        
