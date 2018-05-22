@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Voici Colombe</title>
-    <link rel="stylesheet" type="text/css" href="theme.css">
+    <link rel="stylesheet" type="text/css" href="CV1.css">
 </head>
 
 <body>
@@ -16,7 +16,7 @@
             
             <img id="logo" src="images/colombe2.png"/>
             
-            <nav>
+            <nav id="navi">
                 <ul class="menu">
                     <li><a href="#qui">Qui est Colombe ?</a></li>
                     <li><a href="#actu">Actualités</a></li>
@@ -24,7 +24,39 @@
                     <li><a href="#hobbys">Hobby's</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-            </nav>   
+            </nav>
+
+            <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+            <script>
+                    // $(".main-header").click(function(){
+                    //     $(".main-header").hide();
+                    // });
+                $(".main-header").bottom_scroll({
+                    css_class: 'menu',
+                    out_of_viewport: function(){
+                    },
+                    back_in_viewport: function(){
+                    },
+
+                });
+
+
+                            
+                    
+                    
+                //     fonction permettant de charger le document avant le début du code
+                //     $('#navi menu').bottom_scroll();
+
+                //     $('#navi menu').bottom_scroll({
+                //     css_class: 'menu',
+                //     out_of_viewport: function() {
+                //     },
+                //     back_in_viewport: function() {
+                //     }
+                // });
+                    
+               
+            </script>  
         
         </div>
 
