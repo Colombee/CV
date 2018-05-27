@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Hide Menu Test </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      var zero = 0;
+      $(document).ready(function(){
+        $(window).on('scroll', function(){
+          $('.navbar').toggleClass('hide', $(window).scrollTop()
+              > zero);
+          zero =  $(window).scrollTop();    
+        })
+      })
+    </script>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#" class="testbar"></a>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#">Section </a></li>
+        <li><a href="#">Section </a></li>
+        <li><a href="#">Section </a></li>
+        <li><a href="#">Section </a></li>
+      </ul>
+    </div>
+    <section class="sec1"> </section>
+    <section class="sec2"> </section>
+    <section class="sec3"> </section>
+    <section class="sec4"> </section>
+
+  </body>
+</html>
